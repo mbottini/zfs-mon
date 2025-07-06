@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zfs_mon"
+version = "1.0"
+description = "ZFS real-time cache activity monitor"
+authors = [{name = "Andrew Platonov", email = "poluandrey@gmail.com"}]
+dependencies = ["ujson"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+Homepage = "https://github.com/tears-of-noobs/zfs-mon.git"
+
+[project.scripts]
+zfs-mon = "zfs_monitor.zfs_mon:main"

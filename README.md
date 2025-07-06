@@ -7,12 +7,13 @@ Python script for monitoring ZFS caches efficiency
 Installation
 -------------
 
-Just clone repo and execute `setup.py` script
+Clone the repo and run `python -m build`. Then install the package with `pip`.
 
 ```shell
-git clone https://github.com/tears-of-noobs/zfs-mon.git
+git clone https://github.com/mbottini/zfs-mon.git
 cd zfs-mon
-python setup.py install
+python -m build
+python -m pip install ./dist/zfs_mon-1.0-py3-none-any.whl
 ```
 
 After installation you may run command - `zfs-mon` and watch for ZFS cache activity.
@@ -21,5 +22,4 @@ After installation you may run command - `zfs-mon` and watch for ZFS cache activ
 zfs-mon
 ```
 
-Also, maybe you want to build a package for your Arch Linux. For this. 
-in `build` directory you find a special PKGBUILD file
+No guarantees are made about the Arch Linux PKGBUILD.
