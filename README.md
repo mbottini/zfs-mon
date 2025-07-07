@@ -3,6 +3,19 @@ ZFS real time cache activity monitor
 
 Python script for monitoring ZFS caches efficiency
 
+Dependencies
+------------
+
+To build the Python package itself:
+
+    python3-build
+
+For the Debian package:
+
+    build-essential 
+    debhelper 
+    dh-python
+    pybuild-plugin-pyproject
 
 Installation
 -------------
@@ -23,6 +36,7 @@ dpkg-buildpackage -us -uc
 ```
 
 inside the `zfs-mon` repository and then installing the resulting `.deb` package with APT.
+
 
 After installation you may run command - `zfs-mon` and watch for ZFS cache activity.
 
