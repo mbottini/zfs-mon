@@ -1,0 +1,11 @@
+Source: zfs-mon
+Section: python
+Priority: optional
+Maintainer: Michael Bottini <mbottini1@gmail.com>
+Build-Depends: debhelper (>= 13), python3-all
+Standards-Version: 4.5.1
+
+Package: zfs-mon
+Architecture: all
+Depends: ${python3:Depends}, python3-ujson
+Description: ZFS real-time cache activity monitor
