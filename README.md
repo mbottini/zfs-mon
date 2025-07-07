@@ -21,5 +21,3 @@ After installation you may run command - `zfs-mon` and watch for ZFS cache activ
 ```shell
 zfs-mon
 ```
-
-No guarantees are made about the Arch Linux PKGBUILD.
