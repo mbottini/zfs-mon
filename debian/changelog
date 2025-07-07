@@ -1,4 +1,4 @@
-zfs-mon (1.0.0) plucky; urgency=low
+python3-zfs-mon (1.0.0) plucky; urgency=low
 
   * Initial commit
 
