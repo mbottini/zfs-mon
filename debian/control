@@ -2,10 +2,10 @@ Source: python3-zfs-mon
 Section: python
 Priority: optional
 Maintainer: Michael Bottini <mbottini1@gmail.com>
-Build-Depends: debhelper (>= 13), python3-all
+Build-Depends: debhelper (>= 13), python3, pybuild-plugin-pyproject
 Standards-Version: 4.5.1
 
 Package: python3-zfs-mon
 Architecture: all
-Depends: ${python3:Depends}, python3-ujson
+Depends: python3, python3-ujson
 Description: ZFS real-time cache activity monitor
